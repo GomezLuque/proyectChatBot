@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "eiZouiuhJ7",
+    "password": "QlxkaEkZgp",
+    "database": "eiZouiuhJ7",
+    "host": "remotemysql.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "eiZouiuhJ7",
+    "password": "QlxkaEkZgp",
+    "database": "eiZouiuhJ7",
+    "host": "remotemysql.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "eiZouiuhJ7",
+    "password": "QlxkaEkZgp",
+    "database": "eiZouiuhJ7",
+    "host": "remotemysql.com",
+    "dialect": "mysql"
+  }
+}

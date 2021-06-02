@@ -107,7 +107,7 @@ async function validate(e) {
                     chatContainer.innerHTML += `
                         <div class="chatMessage">
                             <h2>Ya que su problema no se soluciono lo conectaremos con un asesor</h2>
-                            <h2>Numero del asesor : 300 48999999999</h2>
+                            <h2>Numero del asesor : +57 (316)751-32-95</h2>
                         </div>
                     `
                 }

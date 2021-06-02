@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body onload="cargarPreguntas()">
+    <nav>
+        <ul>
+            <li>
+                <img src="./assets/bot.png" alt="">
+            </li>
+            <li>Julian Luque</li>
+        </ul>
+    </nav>
+    <section class="img-chat">
+        <img class="img-lado" src="./assets/imagenFinal.png" alt="" srcset="">
+        <div class="chat-container">
+            <div class="header-chat-container flex">
+                <img src="./assets/bot.png" alt="" width="30px" height="30px">
+                <h1>Soy ChatBot </h1>
+            </div>
+            <div id="chatText" class="body-chat-container">
+                <div class="chatMessage flex">
+                    <h2>Puedo ayudarte con esto</h2>
+                </div>
+                <div class="userMessage flex">
+                    <h2>ayudame a resolver esto ayudame a resolver esto ayudame a resolver esto ayudame a resolver esto ayudame a resolver esto ayudame a resolver estoayudame a resolver esto</h2>
+                </div>
+            </div>
+            <input id="serch" class="input-chatbot" type="text" placeholder="Escribe algo">
+        </div>
+    </section>
+    
+    <script src="/js/chatbot.js"></script>
+</body>
+</html>
